@@ -1,0 +1,9 @@
+#ignore all GIS shapefile components
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+
