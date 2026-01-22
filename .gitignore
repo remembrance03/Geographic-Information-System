@@ -7,3 +7,8 @@
 *.sbn
 *.sbx
 
+#ignore lock and temp files commonly created by ArcGIS
+*.gdb-lock
+*.sr.lock
+*.lock
+
