@@ -1,4 +1,4 @@
-# Geographic-Information-System
+# Geographic Information System
 
 This repository contains the work of smriti's practical GIS assignment aimed at evaluating core competencies in spatial data handling and GIS analysis using ArcGIS.
 
