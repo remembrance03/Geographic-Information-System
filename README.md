@@ -7,19 +7,54 @@ The assignment focuses on applying standard GIS workflows to a selected district
 ---
 
 ## Objectives
-
 The primary objectives of this assignment are to:
+1. Manage and organize spatial datasets effectively
+2. Perform GIS analysis using ArcGIS tools
+3. Integrate population and attribute data with spatial layers
+4. Assess spatial accuracy and data consistency
+5. Produce clear, meaningful maps following cartographic standards
+6. Document GIS workflows through structured reporting
 
-Manage and organize spatial datasets effectively
+---
 
-Perform GIS analysis using ArcGIS tools
+## Dataset and Software Environment
 
-Integrate population and attribute data with spatial layers
+### Software
+1. ArcGIS 
 
-Assess spatial accuracy and data consistency
+### Dataset
+1. Nepal Local Units Administrative Boundary (1:1,000,000) – National Geoportal of Nepal
 
-Produce clear, meaningful maps following cartographic standards
+   https://nationalgeoportal.gov.np
+   
+3. Municipality-wise Population Data (2011 & 2021) – CityPopulation
 
-Document GIS workflows through structured reporting
+    https://www.citypopulation.de
+   
+5. Topographic Map Sheets – pahar.in
 
+    https://pahar.in/nepal-topo-maps
+   
+7. OpenStreetMap Thematic Layers – Geofabrik
 
+   https://download.geofabrik.de/asia.html
+
+---
+
+## Task Overview
+
+Task 1: Workspace and Geodatabase Preparation
+
+Task 2: Administrative Boundary Data Processing
+
+Task 3: Population Data Collection and Integration
+
+Task 4: Topographic Map Sheet Processing
+
+Task 5: Thematic Layer Download and ModelBuilder Processing
+
+Task 6: Spatial Accuracy Verification
+
+Task 7: Map Preparation and Visualization
+
+Task 8: Project Report Preparation
