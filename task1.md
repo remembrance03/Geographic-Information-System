@@ -44,7 +44,7 @@ To organize vector data and maintain spatial consistency, a Feature Dataset was 
 
 ---
 
-### Step 4: Step 4: Set Nepal’s Projected Coordinate System
+### Step 4: Set Nepal’s Projected Coordinate System
 
 1. In the Create Feature Dataset wizard, click Select Coordinate System.
    
