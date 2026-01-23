@@ -52,7 +52,7 @@ To organize vector data and maintain spatial consistency, a Feature Dataset was 
    
 2. Navigate to:
 Projected Coordinate Systems → National Grids → Nepal
-3.Select Nepal National Grid and proceed to finish the setup.
+3. Select Nepal National Grid and proceed to finish the setup.
 
    <img src="images/nepal_nagarkot_TM.png" width="600">
 
