@@ -12,3 +12,10 @@
 *.sr.lock
 *.lock
 
+#ignore the auxiliary files created by ArcGIS
+*.jgwx
+*.tfw
+*.aux.xml
+*.jpg.xml
+*.tif.aux.xml
+*.tif.ovr
