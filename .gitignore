@@ -18,4 +18,5 @@
 *.aux.xml
 *.jpg.xml
 *.tif.aux.xml
+*.tif
 *.tif.ovr
