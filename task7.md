@@ -80,6 +80,51 @@ The objective of this task is to analyze and visualize population change between
 
 ---
 
+### Step 1: Add Population Data
+
+1. You need:
+
+		Population 2011
+		Population 2021
+
+2. Join to municipality layer.
+
+(see task 3 or 7.1 if confusion on how to add data and join)
+
+---
+
+### Step 2: Calculate Population Change
+
+1. Add field: Pop_Change
+2. Type: Long Integer
+3. Calculate field:
+
+		Pop_2021 - Pop_2011
+
+	<img src= "images/pop_change.png">
+
+---
+
+### Step 3: Apply Symbology
+
+1. Use Graduated Colors or Diverging Colors.
+2. Best method: Graduated Colors
+3. Field: Pop_Change
+4. Classification: Natural Breaks or Equal Interval
+
+	<img src= "images/symbology7.2.png">
+
+---
+
+### Step 4: Population Change in Map View
+
+   <img src= "images/7.2final.png">
+
+This clearly shows migration trends.
+
+
+---
+
 ## Task 7.3: General Purpose District Map
 
 ### Objective
