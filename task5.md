@@ -5,7 +5,7 @@ The objective of this task is to obtain thematic GIS layers of Nepal from the Op
 
 ---
 
-## Step 1: Download Thematic GIS Layers
+### Step 1: Download Thematic GIS Layers
 
 1. Open a web browser.
 2. Visit the Geofabrik OpenStreetMap data download page:
@@ -32,7 +32,7 @@ These layers represent important thematic information such as land use, settleme
 
 ---
 
-## Step 2: Add the Thematic Layers to ArcGIS
+### Step 2: Add the Thematic Layers to ArcGIS
 
 1. Open ArcMap (or ArcGIS Pro).
 2. Click Add Data.
@@ -56,7 +56,7 @@ These layers will be used as inputs for the ModelBuilder processing.
 
 ---
 
-## Step 3: Create a ModelBuilder Model
+### Step 3: Create a ModelBuilder Model
 
 1. In ArcCatalog, go to tool section and click model builder.
 The ModelBuilder window will open.
@@ -67,7 +67,7 @@ ModelBuilder allows automation of repetitive GIS operations such as clipping mul
 
 ---
 
-## Step 4: Add Clip Tools to the Model
+### Step 4: Add Clip Tools to the Model
 
 1. Open ArcToolbox.
 2. Navigate to:
@@ -93,7 +93,7 @@ ModelBuilder allows automation of repetitive GIS operations such as clipping mul
 
 ---
 
-## Step 5: Connect Layers to the Clip Tool
+### Step 5: Connect Layers to the Clip Tool
 
 1. For each thematic layer:
 2.  Connect the input layer to the Clip tool.
@@ -114,7 +114,7 @@ Each thematic layer will now be clipped using the district boundary.
 
 ---
 
-## Step 6: Set Output Locations
+### Step 6: Set Output Locations
 
 1. For each Clip tool output:
 2. Set the output location to the previously created feature dataset.
@@ -131,7 +131,7 @@ This ensures that all processed layers are stored in an organized structure.
 
 ---
 
-## Step 7: Run the Model
+### Step 7: Run the Model
 
 1. Click the Run button in ModelBuilder.
 
@@ -145,7 +145,7 @@ This step completes the automated processing of thematic data.
 
 ---
 
-## Step 8: Save the ModelBuilder Workflow
+### Step 8: Save the ModelBuilder Workflow
 
 1. Click Save in ModelBuilder.
 2. Name the model:
