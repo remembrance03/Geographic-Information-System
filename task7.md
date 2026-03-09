@@ -122,7 +122,6 @@ The objective of this task is to analyze and visualize population change between
 
 This clearly shows migration trends.
 
-
 ---
 
 ## Task 7.3: General Purpose District Map
@@ -131,3 +130,124 @@ This clearly shows migration trends.
 The objective of this task is to design a complete general-purpose map of the selected district using Layout View in ArcGIS. Multiple thematic layers including administrative boundaries, roads, land use, water bodies, waterways, and places are integrated with appropriate symbology and labeling. Essential cartographic elements such as title, legend, scale bar, north arrow, grid, and data source are included to produce a clear and well-structured map suitable for presentation and spatial interpretation.
 
 ---
+
+### Step 1: Add data
+
+1. Navigate to the feature dataset created for the district and add the thematic clipped layers to the map.
+
+		 gis_osm_landuse_clip
+		 gis_osm_places_clip
+		 gis_osm_roads_clip
+		 gis_osm_water_clip
+		 gis_osm_waterways_clip
+   
+	  <img src="images/add_clipped_layer.png">
+
+3. Add the district boundary and municipality boundary layers.
+
+---
+
+### Step 2: Apply Symbology to Layers
+
+1. landuse_clip -> Light green
+2. places_clip -> Black or Grey
+3. roads_clip -> Red or Orange
+4. water_clip -> Light blue
+5. waterways_clip -> Blue
+
+To change symbology:
+1. Right click the layer.
+2. Select Properties.
+3. Go to Symbology.
+4. Choose an appropriate symbol and color.
+
+	  <img src="images/symbology7.3.png">
+
+---
+
+### Step 3: Label Important Features
+
+1. Right-click the places layer.
+2. Select Label Features.
+3. Use the name field for labeling.
+   
+Similarly, important features such as municipalities or rivers can also be labeled if necessary.
+
+   <img src="images/labeled.png">
+
+---
+
+### Step 4: Switch to Layout View
+
+1. Click on Layout View.
+   
+	<img src="images/click_layoutview.png">
+	
+Layout View allows the map to be arranged properly for presentation and printing.
+
+---
+
+### Step 5: Add Essential Map Elements
+
+1. Insert the required cartographic elements into the map layout.
+
+	a. Title
+
+			Insert(on menu bar) → Title
+
+	<img src="images/add_elements_title.png">
+
+	b. Legend
+
+			Insert → Legend
+
+	c. Scale Bar
+
+		Insert → Scale Bar
+
+	d. North Arrow
+
+		Insert → North Arrow
+
+	e. Data Source
+
+		Insert a text box and write:
+		Source: OpenStreetMap (Geofabrik), CBS Nepal
+
+	f. Grid
+
+		View → Data Frame Properties → Grids → (choose)Add Grid
+
+	<img src="images/mapelement_grid.png">
+
+---
+
+### Step 6: Arrange the Map Layout
+
+1. Adjust the placement of the legend, title, north arrow, and scale bar so that the map appears clear and balanced.
+2. Ensure all map elements are visible and readable.
+
+   <img src="images/Final_before_export.png">
+
+---
+
+### Step 7: Export the Final Map
+
+1. Click File → Export Map.
+
+	<img src="images/map_file_export.png">
+   
+3. Choose JPEG or PNG format.
+4. Save the final map for submission.
+	
+---
+
+### The final Cartographic Map
+
+<img src="GIS_Assignment/General_Purpose_Kavre_District_Map.png">
+
+---
+
+## Conclusion
+
+In this task, a general-purpose map of the selected district was created using ArcGIS Layout View. Various thematic layers including administrative boundaries, roads, land use, water bodies, waterways, and places were integrated with appropriate symbology and labeling. Essential map elements such as title, legend, scale bar, north arrow, grid, and data source were added to produce a clear and informative map suitable for geographic visualization and presentation.
